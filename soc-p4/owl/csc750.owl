@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/darsh/ontologies/2018/9/project-3"
+     xml:base="http://www.semanticweb.org/darsh/ontologies/2018/9/project-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl">
+        <rdfs:comment>Ontology for Project 3 of CSC 750 Service Oriented Programming at NC State University by Darshil Patel</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasReceiver -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasReceiver">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#isReceiverOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Transaction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasSender -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasSender">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Transaction"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#isReceiverOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#isReceiverOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Transaction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#CommercialTransaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#CommercialTransaction">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Transaction"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasReceiver"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Merchant"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasSender"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Merchant"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#Consumer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Consumer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Person"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Merchant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#Merchant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Merchant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Person"/>
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#PersonalTransaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#PersonalTransaction">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Transaction"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasReceiver"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Consumer"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasSender"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Consumer"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#PurchaseTransaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#PurchaseTransaction">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#CommercialTransaction"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasReceiver"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Merchant"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasSender"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Consumer"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#RefundTransaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#RefundTransaction">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#CommercialTransaction"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasReceiver"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Consumer"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasSender"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Merchant"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#Transaction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Transaction">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasReceiver"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#hasSender"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/darsh/ontologies/csc750.owl#TrustedMerchant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#TrustedMerchant">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/darsh/ontologies/csc750.owl#Merchant"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#isReceiverOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/darsh/ontologies/csc750.owl#PurchaseTransaction"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
