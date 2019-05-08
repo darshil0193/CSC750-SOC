@@ -1,0 +1,129 @@
+2018-09-09 05:35:47,949 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-10 - Database [default] initialized at jdbc:sqlite:db\p1.db
+2018-09-09 05:35:47,987 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-10 - Creating Pool for datasource 'default'
+2018-09-09 05:35:48,676 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-10 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-09-09 05:35:48,919 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-10 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-09-09 05:35:48,924 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-10 - Application started (Dev)
+2018-09-09 05:35:59,994 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:35:59.993 Received Username: afbsfdbs
+2018-09-09 05:35:59,995 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:35:59.994 Received Latitude: 38.920298333333335
+2018-09-09 05:35:59,995 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:35:59.995 Received Longitude: -77.01469999999999
+2018-09-09 05:36:00,152 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:00.146 Total Distance: 0.0 m
+2018-09-09 05:36:00,153 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:00.152 Average Speed: 0.0 m/s
+2018-09-09 05:36:00,153 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:00.153 Sent Wait Time: 5.0 s
+2018-09-09 05:36:05,354 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:05.354 Received Username: afbsfdbs
+2018-09-09 05:36:05,355 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:05.355 Received Latitude: 38.920298333333335
+2018-09-09 05:36:05,355 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:05.355 Received Longitude: -77.01469999999999
+2018-09-09 05:36:05,448 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:05.448 Total Distance: 0.0 m
+2018-09-09 05:36:05,448 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:05.448 Average Speed: 0.0 m/s
+2018-09-09 05:36:05,448 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:05.448 Sent Wait Time: 5.0 s
+2018-09-09 05:36:10,623 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:10.623 Received Username: afbsfdbs
+2018-09-09 05:36:10,623 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:10.623 Received Latitude: 38.920298333333335
+2018-09-09 05:36:10,623 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:10.623 Received Longitude: -77.01469999999999
+2018-09-09 05:36:10,747 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:10.747 Total Distance: 0.0 m
+2018-09-09 05:36:10,747 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:10.747 Average Speed: 0.0 m/s
+2018-09-09 05:36:10,747 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:10.747 Sent Wait Time: 5.0 s
+2018-09-09 05:36:15,907 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:15.907 Received Username: afbsfdbs
+2018-09-09 05:36:15,907 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:15.907 Received Latitude: 38.920298333333335
+2018-09-09 05:36:15,907 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:15.907 Received Longitude: -77.01469999999999
+2018-09-09 05:36:16,005 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:16.005 Total Distance: 0.0 m
+2018-09-09 05:36:16,006 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:16.006 Average Speed: 0.0 m/s
+2018-09-09 05:36:16,006 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:16.006 Sent Wait Time: 5.0 s
+2018-09-09 05:36:21,248 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:21.248 Received Username: afbsfdbs
+2018-09-09 05:36:21,248 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:21.248 Received Latitude: 38.9275
+2018-09-09 05:36:21,248 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:21.248 Received Longitude: -77.0202
+2018-09-09 05:36:21,370 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:21.37 Total Distance: 931.472116992603 m
+2018-09-09 05:36:21,370 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:21.37 Average Speed: 42.33964168148196 m/s
+2018-09-09 05:36:21,370 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:21.37 Sent Wait Time: 1.0 s
+2018-09-09 05:36:22,489 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:22.489 Received Username: afbsfdbs
+2018-09-09 05:36:22,490 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:22.489 Received Latitude: 38.9275
+2018-09-09 05:36:22,490 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:22.49 Received Longitude: -77.0202
+2018-09-09 05:36:22,596 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:22.596 Total Distance: 931.472116992603 m
+2018-09-09 05:36:22,596 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:22.596 Average Speed: 51.7484509440335 m/s
+2018-09-09 05:36:22,596 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:22.596 Sent Wait Time: 1.0 s
+2018-09-09 05:36:23,736 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:23.735 Received Username: afbsfdbs
+2018-09-09 05:36:23,736 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:23.736 Received Latitude: 38.9275
+2018-09-09 05:36:23,736 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:23.736 Received Longitude: -77.0202
+2018-09-09 05:36:23,813 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:23.813 Total Distance: 931.472116992603 m
+2018-09-09 05:36:23,813 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:23.813 Average Speed: 71.6517013071233 m/s
+2018-09-09 05:36:23,813 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:23.813 Sent Wait Time: 1.0 s
+2018-09-09 05:36:24,972 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:24.972 Received Username: afbsfdbs
+2018-09-09 05:36:24,972 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:24.972 Received Latitude: 38.9275
+2018-09-09 05:36:24,972 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:24.972 Received Longitude: -77.0202
+2018-09-09 05:36:25,147 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:25.147 Total Distance: 931.472116992603 m
+2018-09-09 05:36:25,147 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:25.147 Average Speed: 103.496901888067 m/s
+2018-09-09 05:36:25,147 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:25.147 Sent Wait Time: 1.0 s
+2018-09-09 05:36:26,356 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:26.356 Received Username: afbsfdbs
+2018-09-09 05:36:26,356 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:26.356 Received Latitude: 38.9275
+2018-09-09 05:36:26,356 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:26.356 Received Longitude: -77.0202
+2018-09-09 05:36:26,455 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:26.455 Total Distance: 931.472116992603 m
+2018-09-09 05:36:26,455 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:26.455 Average Speed: 0.0 m/s
+2018-09-09 05:36:26,455 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:26.455 Sent Wait Time: 5.0 s
+2018-09-09 05:36:31,642 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:31.642 Received Username: afbsfdbs
+2018-09-09 05:36:31,642 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:31.642 Received Latitude: 38.9275
+2018-09-09 05:36:31,643 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:31.643 Received Longitude: -77.0202
+2018-09-09 05:36:31,761 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:31.761 Total Distance: 931.472116992603 m
+2018-09-09 05:36:31,761 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:31.761 Average Speed: 0.0 m/s
+2018-09-09 05:36:31,762 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:36:31.761 Sent Wait Time: 5.0 s
+2018-09-09 05:39:38,034 [INFO] from application in application-akka.actor.default-dispatcher-5 - 2018-09-09 05:39:38.034 Received Username: afbsfdbs
+2018-09-09 05:39:38,034 [INFO] from application in application-akka.actor.default-dispatcher-5 - 2018-09-09 05:39:38.034 Received Latitude: 38.926298333333335
+2018-09-09 05:39:38,034 [INFO] from application in application-akka.actor.default-dispatcher-5 - 2018-09-09 05:39:38.034 Received Longitude: -77.0126
+2018-09-09 05:39:38,155 [INFO] from application in application-akka.actor.default-dispatcher-5 - 2018-09-09 05:39:38.155 Total Distance: 0.0 m
+2018-09-09 05:39:38,155 [INFO] from application in application-akka.actor.default-dispatcher-5 - 2018-09-09 05:39:38.155 Average Speed: 0.0 m/s
+2018-09-09 05:39:38,155 [INFO] from application in application-akka.actor.default-dispatcher-5 - 2018-09-09 05:39:38.155 Sent Wait Time: 5.0 s
+2018-09-09 05:42:36,377 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2018-09-09 05:42:36,610 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-23 - Database [default] initialized at jdbc:sqlite:db\p1.db
+2018-09-09 05:42:36,610 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-23 - Creating Pool for datasource 'default'
+2018-09-09 05:42:36,635 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-23 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2018-09-09 05:42:36,751 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-23 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2018-09-09 05:42:36,751 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-23 - Application started (Dev)
+2018-09-09 05:42:36,807 [INFO] from application in application-akka.actor.default-dispatcher-8 - 2018-09-09 05:42:36.806 Received Username: afbsfdbsfdgd
+2018-09-09 05:42:36,807 [INFO] from application in application-akka.actor.default-dispatcher-8 - 2018-09-09 05:42:36.807 Received Latitude: 38.926298333333335
+2018-09-09 05:42:36,807 [INFO] from application in application-akka.actor.default-dispatcher-8 - 2018-09-09 05:42:36.807 Received Longitude: -77.0126
+2018-09-09 05:42:36,821 [INFO] from application in application-akka.actor.default-dispatcher-9 - 2018-09-09 05:42:36.821 Received Username: afbsfdbsfdgd
+2018-09-09 05:42:36,821 [INFO] from application in application-akka.actor.default-dispatcher-9 - 2018-09-09 05:42:36.821 Received Latitude: 38.926298333333335
+2018-09-09 05:42:36,821 [INFO] from application in application-akka.actor.default-dispatcher-9 - 2018-09-09 05:42:36.821 Received Longitude: -77.0126
+2018-09-09 05:48:32,000 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:48:32.0 Received Username: asdfasfdav
+2018-09-09 05:48:32,000 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:48:32.0 Received Latitude: 38.926298333333335
+2018-09-09 05:48:32,000 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:48:32.0 Received Longitude: -77.0126
+2018-09-09 05:48:32,087 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:48:32.086 Total Distance: 0.0 m
+2018-09-09 05:48:32,087 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:48:32.087 Average Speed: 0.0 m/s
+2018-09-09 05:48:32,087 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:48:32.087 Sent Wait Time: 5.0 s
+2018-09-09 05:49:25,114 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:25.114 Received Username: sdavsd
+2018-09-09 05:49:25,114 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:25.114 Received Latitude: 38.926298333333335
+2018-09-09 05:49:25,114 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:25.114 Received Longitude: -77.0126
+2018-09-09 05:49:25,211 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:25.211 Total Distance: 0.0 m
+2018-09-09 05:49:25,212 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:25.212 Average Speed: 0.0 m/s
+2018-09-09 05:49:25,212 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:25.212 Sent Wait Time: 5.0 s
+2018-09-09 05:49:33,796 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:33.796 Received Username: sdavsd
+2018-09-09 05:49:33,796 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:33.796 Received Latitude: 38.926298333333335
+2018-09-09 05:49:33,796 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:33.796 Received Longitude: -77.0126
+2018-09-09 05:49:33,912 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:33.912 Total Distance: 0.0 m
+2018-09-09 05:49:33,913 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:33.913 Average Speed: 0.0 m/s
+2018-09-09 05:49:33,913 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:33.913 Sent Wait Time: 5.0 s
+2018-09-09 05:49:41,783 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:41.783 Received Username: sdavsddfsvsd
+2018-09-09 05:49:41,783 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:41.783 Received Latitude: 38.926298333333335
+2018-09-09 05:49:41,783 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:41.783 Received Longitude: -77.0126
+2018-09-09 05:49:41,869 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:41.869 Total Distance: 0.0 m
+2018-09-09 05:49:41,869 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:41.869 Average Speed: 0.0 m/s
+2018-09-09 05:49:41,869 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:41.869 Sent Wait Time: 5.0 s
+2018-09-09 05:49:47,099 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:47.099 Received Username: sdavsddfsvsd
+2018-09-09 05:49:47,099 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:47.099 Received Latitude: 38.926298333333335
+2018-09-09 05:49:47,099 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:47.099 Received Longitude: -77.0126
+2018-09-09 05:49:47,310 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:47.31 Total Distance: 0.0 m
+2018-09-09 05:49:47,310 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:47.31 Average Speed: 0.0 m/s
+2018-09-09 05:49:47,310 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:47.31 Sent Wait Time: 5.0 s
+2018-09-09 05:49:54,774 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:54.774 Received Username: sdavsddfsvsdasfsdafasdfasdf
+2018-09-09 05:49:54,774 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:54.774 Received Latitude: 38.926298333333335
+2018-09-09 05:49:54,774 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:54.774 Received Longitude: -77.0126
+2018-09-09 05:49:54,879 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:54.878 Total Distance: 0.0 m
+2018-09-09 05:49:54,879 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:54.879 Average Speed: 0.0 m/s
+2018-09-09 05:49:54,879 [INFO] from application in application-akka.actor.default-dispatcher-7 - 2018-09-09 05:49:54.879 Sent Wait Time: 5.0 s

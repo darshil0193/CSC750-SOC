@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginStart="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/host"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/host"
+        android:inputType="text"
+        android:text="@string/hostDefaultValue" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:text="" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/start" />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/totalDistanceKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/totalDistanceTravelled"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/totalDistanceValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/distanceValue"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/nextTimeIntervalKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nextTimeInterval"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/nextTimeIntervalValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nextTimeIntervalValue"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/averageSpeedKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/averageSpeed"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/averageSpeedValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/averageSpeedValue"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+
+</LinearLayout>

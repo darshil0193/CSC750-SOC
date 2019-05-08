@@ -1,0 +1,20 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+POST    /addbalance/usd/:amount     controllers.HomeController.addUSDAmount(amount: String)
+GET     /getbalance                 controllers.HomeController.getBalance
+GET     /transactions               controllers.HomeController.getTransactions
+GET     /transactions/:transactionID    controllers.HomeController.getTransactionDetails(transactionID: String)
+GET     /selloffers/:offerid        controllers.HomeController.getSellOfferDetails(offerid: String)
+GET     /selloffers                 controllers.HomeController.getSellOffers
+POST    /buy/:maxrate/:amount       controllers.HomeController.buyTransaction(maxrate: String, amount:String)
+POST    /debug/confirm_fail         controllers.HomeController.debugConfirmFail()
+POST    /debug/confirm_no_response  controllers.HomeController.debugConfirmNoResponse()
+POST    /debug/reset                controllers.HomeController.debugReset()

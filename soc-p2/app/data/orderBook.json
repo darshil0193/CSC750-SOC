@@ -1,0 +1,17 @@
+[
+  {
+    "usdRate": 100.0,
+    "btcAmount": 5.0,
+    "offerID": "431671cb"
+  },
+  {
+    "usdRate": 80.0,
+    "btcAmount": 2.0,
+    "offerID": "16b961ed"
+  },
+  {
+    "usdRate": 50.0,
+    "btcAmount": 12.0,
+    "offerID": "1e06381d"
+  }
+]
